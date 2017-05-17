@@ -84,7 +84,7 @@ var google_remarketing_only = false;
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#myPage">ITFORIT</a>
     </div>
@@ -100,8 +100,8 @@ var google_remarketing_only = false;
 </nav>
 
 <div class="jumbotron text-center">
-  <h1 class="text-left">IT услуги</h1> 
-  <p class="text-justify">Аутсорсинговые услуги<br /> Обслуживание компьютерных систем и сетей<br /> Обслуживание офисов <br /> Обслуживание телефонии</p> 
+  <h1 class="text-left">IT услуги</h1>
+  <p class="text-justify">Аутсорсинговые услуги<br /> Обслуживание компьютерных систем и сетей<br /> Обслуживание офисов <br /> Обслуживание телефонии</p>
 </div>
 
 <!-- Container (Services Section) -->
@@ -227,12 +227,14 @@ var google_remarketing_only = false;
     </div>
     <div class="col-sm-8">
       <h2>Наша цель</h2><br>
-      <h4><strong>Миссия:</strong> Дать возможность клиенту предоставить обслуживание своей IT инфраструктуры специалистам, и снизить расходы на техническую поддержку.</h4><br>
-      <p><strong>Видение:</strong> Вы оформляете заказ по <a href="#contact">форме</a> или по  <a href="#contact">телефону</a>. На стадии заказа согласовывается предварительно расчёт работ. Вашим услугам предоставляются различные виды обслуживания, выезд специалиста или удалёная техническая поддержка.</p><br>
+      <h4><strong>Миссия:</strong> Дать возможность клиенту предоставить обслуживание своей IT инфраструктуры специалистам,
+				и снизить расходы на техническую поддержку.</h4><br>
+      <p><strong>Видение:</strong> Вы оформляете заказ по <a href="#contact">форме</a> или по  <a href="#contact">телефону</a>. На стадии заказа согласовывается предварительно расчёт работ.
+				Вашим услугам предоставляются различные виды обслуживания, выезд специалиста или удалёная техническая поддержка.
+			 Услуги системного администратора</p><br>
     </div>
   </div>
 </div>
-
 
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
@@ -270,8 +272,6 @@ var google_remarketing_only = false;
 </form>
 </div>
 
-
-
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
@@ -296,13 +296,13 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
     } // End if
   });
-  
+
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
