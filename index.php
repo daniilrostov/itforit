@@ -17,17 +17,14 @@ if(isset($_POST["send"])) {
 	$error_name = "";
         $error_email = "";
         $error = false;
-
 	if($name == "" || mb_strlen($name)>10) {
                 $error_name="Не более 10 знаков";
                 $error = true;
                 }
-
 	if($email == "" || mb_strlen($email)>22) {
                 $error_email="Не более 15 знаков";
                 $error = true;
                 }
-
         if ($comments == "" || mb_strlen($comments)>100) {
                 $error_comments = "Введите сообщение не более 100 знаков!";
                 $error = true;
@@ -41,7 +38,6 @@ if(isset($_POST["send"])) {
         }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -52,13 +48,8 @@ if(isset($_POST["send"])) {
   <link rel="stylesheet" href="./style.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-  </style>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-
 <!-- Google Code for &#1079;&#1072;&#1082;&#1072;&#1079; &#1091;&#1089;&#1083;&#1091;&#1075;&#1080; Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -70,14 +61,11 @@ var google_conversion_label = "bE8aCNeY93AQs4OClwM";
 var google_remarketing_only = false;
 /* ]]> */
 </script>
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
 <noscript>
 <div style="display:inline;">
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/853574067/?label=bE8aCNeY93AQs4OClwM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -98,13 +86,13 @@ var google_remarketing_only = false;
     </div>
   </div>
 </nav>
-
 <div class="jumbotron text-center">
   <h1 class="text-left">IT услуги</h1>
   <p class="text-justify">Аутсорсинговые услуги<br /> Обслуживание компьютерных систем и сетей<br /> Обслуживание офисов <br /> Обслуживание телефонии</p>
 </div>
-
-<!-- Container (Services Section) -->
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <div id="services" class="container-fluid text-center">
   <h2>УСЛУГИ</h2>
   <h4>Что мы предлагаем</h4>
@@ -125,7 +113,6 @@ var google_remarketing_only = false;
       <h4>Сеть</h4>
       <p>Обслуживание локальных сетей. Обслуживание сетевого оборудования. Нстройка клиент-серверного взаимодействия, межсетевых экранов.</p>
     </div>
-
 <div class="col-sm-4">
       <img class="logo-small" src="./foto/Apps-config-icon.png"></img>
       <h4>ПК</h4>
@@ -143,7 +130,6 @@ var google_remarketing_only = false;
     </div>
   </div>
   <br><br>
-
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid bg-grey">
   <div class="text-center">
@@ -203,7 +189,6 @@ var google_remarketing_only = false;
     </div>
   </div>
 </div>
-
 <!-- container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
@@ -218,7 +203,6 @@ var google_remarketing_only = false;
     </div>
   </div>
 </div>
-
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
@@ -235,7 +219,6 @@ var google_remarketing_only = false;
     </div>
   </div>
 </div>
-
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">Контакты</h2>
@@ -247,7 +230,6 @@ var google_remarketing_only = false;
       <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:mail@itforit.ru"> mail@itforit.ru</a></p>
     </div>
     <div class="col-sm-7 slideanim">
-
 <form action="" method="post">
       <div class="row">
 	<span style="color:green"><?=$note_sent?></span><br />
@@ -271,14 +253,12 @@ var google_remarketing_only = false;
   </div>
 </form>
 </div>
-
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
   <p>&copy 2014-<?php echo date("Y");?></p>
 </footer>
-
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
@@ -287,10 +267,8 @@ $(document).ready(function(){
     if (this.hash !== "") {
       // Prevent default anchor click behavior
       event.preventDefault();
-
       // Store hash
       var hash = this.hash;
-
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
@@ -302,7 +280,6 @@ $(document).ready(function(){
       });
     } // End if
   });
-
   $(window).scroll(function() {
     $(".slideanim").each(function(){
       var pos = $(this).offset().top;
@@ -315,6 +292,7 @@ $(document).ready(function(){
   });
 })
 </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
