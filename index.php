@@ -59,6 +59,25 @@ if(isset($_POST["send"])) {
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
+<!-- Google Code for &#1079;&#1072;&#1082;&#1072;&#1079; &#1091;&#1089;&#1083;&#1091;&#1075;&#1080; Conversion Page -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 853574067;
+var google_conversion_language = "en";
+var google_conversion_format = "3";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "bE8aCNeY93AQs4OClwM";
+var google_remarketing_only = false;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/853574067/?label=bE8aCNeY93AQs4OClwM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
@@ -81,8 +100,8 @@ if(isset($_POST["send"])) {
 </nav>
 
 <div class="jumbotron text-center">
-  <h1 class="text-left">IT помощь</h1> 
-  <p class="text-justify">Обслуживание компьютеров,</br> локальных вычислительных</br> и телефонных сетей</p> 
+  <h1 class="text-left">IT услуги</h1> 
+  <p class="text-justify">Аутсорсинговые услуги<br /> Обслуживание компьютерных систем и сетей<br /> Обслуживание офисов <br /> Обслуживание телефонии</p> 
 </div>
 
 <!-- Container (Services Section) -->
@@ -94,33 +113,33 @@ if(isset($_POST["send"])) {
     <div class="col-sm-4">
 	<img class="logo-small" src="./foto/phone.png"></img>
       <h4>Телефония</h4>
-      <p>Техническая поддержка и организация </br>VoIP и классической телефонии.</p>
+      <p>Настройка телефонии. Техническая поддержка, настройка VoIP и классической телефонии.</p>
     </div>
     <div class="col-sm-4">
 	<img class="logo-small" src="./foto/asterisk.png"></img>
-      <h4>Asterisk</h4>
-      <p>Обслуживание, установка и настройка Asterisk. Конфигурирование сервиса под специфические нужды. Настройка абонентского VoIP оборудования.</p>
+      <h4>Интернет телефония</h4>
+      <p>Аутсорсинговые услуги, установка Asterisk, настройка Asterisk. Настройка абонентского VoIP оборудования, настройка шлюза</p>
     </div>
     <div class="col-sm-4">
       <img class="logo-small" src="./foto/My-Workgroup-icon.png"></img>
       <h4>Сеть</h4>
-      <p>Обслуживание, установка и настройка сетевого оборудования. Нстройка клиент-серверного взаимодействия, межсетевых экранов, роутеров.</p>
+      <p>Обслуживание локальных сетей. Обслуживание сетевого оборудования. Нстройка клиент-серверного взаимодействия, межсетевых экранов.</p>
     </div>
 
 <div class="col-sm-4">
       <img class="logo-small" src="./foto/Apps-config-icon.png"></img>
       <h4>ПК</h4>
-      <p>Выявление неисправности ПК, мелкий ремонт. Техническое обслуживание.</p>
+      <p>Компьютерное обслуживание офисов. Выявление неисправности ПК, мелкий ремонт</p>
     </div>
 <div class="col-sm-4">
       <img class="logo-small" src="./foto/Printers-Faxes-icon.png"></img>
       <h4>Принтеры и факсы</h4>
-      <p>Диагностика неисправности сетевых принтеров, факсов.</p>
+      <p>ИТ обслуживание офисов. Диагностика неисправности сетевых принтеров, факсов.</p>
     </div>
 <div class="col-sm-4">
       <img class="logo-small" src="./foto/Apps-tux-icon.png"></img>
       <h4>Unix подобные ОС</h4>
-      <p>Установка, настройка, выявление неисправностей.</p>
+      <p>Абонентское обслуживание серверов</p>
     </div>
   </div>
   <br><br>
@@ -128,7 +147,7 @@ if(isset($_POST["send"])) {
 <!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid bg-grey">
   <div class="text-center">
-    <h2>Цены</h2>
+    <h2>Компьютерные услуги прайс</h2>
     <h4>Возможно формирование индивидуального плана</h4>
   </div>
   <div class="row slideanim">
@@ -209,7 +228,7 @@ if(isset($_POST["send"])) {
     <div class="col-sm-8">
       <h2>Наша цель</h2><br>
       <h4><strong>Миссия:</strong> Дать возможность клиенту предоставить обслуживание своей IT инфраструктуры специалистам, и снизить расходы на техническую поддержку.</h4><br>
-      <p><strong>Видение:</strong> Вы оформляете заказ по <a href="#contact">форме</a> или по  <a href="#contact">телефону</a>. На стадии заказа согласовывается предварительно расчёт работ.</p><br>
+      <p><strong>Видение:</strong> Вы оформляете заказ по <a href="#contact">форме</a> или по  <a href="#contact">телефону</a>. На стадии заказа согласовывается предварительно расчёт работ. Вашим услугам предоставляются различные виды обслуживания, выезд специалиста или удалёная техническая поддержка.</p><br>
     </div>
   </div>
 </div>
