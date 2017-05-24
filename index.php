@@ -39,7 +39,7 @@ if(isset($_POST["send"])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <title>Обслуживание компьютеров, локальных вычислительных и телефонных сетей</title>
   <meta charset="utf-8">
@@ -50,16 +50,13 @@ if(isset($_POST["send"])) {
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
-<!-- Google Code for &#1079;&#1072;&#1082;&#1072;&#1079; &#1091;&#1089;&#1083;&#1091;&#1075;&#1080; Conversion Page -->
 <script type="text/javascript">
-/* <![CDATA[ */
 var google_conversion_id = 853574067;
 var google_conversion_language = "en";
 var google_conversion_format = "3";
 var google_conversion_color = "ffffff";
 var google_conversion_label = "bE8aCNeY93AQs4OClwM";
 var google_remarketing_only = false;
-/* ]]> */
 </script>
 <noscript>
 <div style="display:inline;">
@@ -88,7 +85,13 @@ var google_remarketing_only = false;
 </nav>
 <div class="jumbotron text-center">
   <h1 class="text-left">IT услуги</h1>
-  <p class="text-justify">Аутсорсинговые услуги<br /> Обслуживание компьютерных систем и сетей<br /> Обслуживание офисов <br /> Обслуживание телефонии</p>
+  <p class="text-justify">Быстро и качественно</p>
+	<ul class="text-justify" style="font-size: 20px;">
+		<li>Аутсорсинговые услуги</li>
+		<li>Обслуживание компьютерных систем и сетей</li>
+		<li>Обслуживание офисов </li>
+		<li>Обслуживание телефонии</li>
+	</ul>
 </div>
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
@@ -99,38 +102,38 @@ var google_remarketing_only = false;
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
-	<img class="logo-small" src="./foto/phone.png"></img>
+	<img class="logo-small" alt="" src="./foto/phone.png" />
       <h4>Телефония</h4>
-      <p>Настройка телефонии. Техническая поддержка, настройка VoIP и классической телефонии.</p>
+      <p>Настройка и техническая поддержка классической и voip телефонии.</p>
     </div>
     <div class="col-sm-4">
-	<img class="logo-small" src="./foto/asterisk.png"></img>
+	<img class="logo-small" alt="" src="./foto/asterisk.png" />
       <h4>Интернет телефония</h4>
-      <p>Аутсорсинговые услуги, установка Asterisk, настройка Asterisk. Настройка абонентского VoIP оборудования, настройка шлюза</p>
+      <p>Аутсорсинговые услуги, установка и настройка Asterisk, настройка абонентского voip оборудования и шлюза. </p>
     </div>
     <div class="col-sm-4">
-      <img class="logo-small" src="./foto/My-Workgroup-icon.png"></img>
+      <img class="logo-small" alt="" src="./foto/My-Workgroup-icon.png" />
       <h4>Сеть</h4>
-      <p>Обслуживание локальных сетей. Обслуживание сетевого оборудования. Нстройка клиент-серверного взаимодействия, межсетевых экранов.</p>
+      <p>Обслуживание локальных сетей, сетевого оборудования, настройка клиент-серверного взаимодействия межсетевых экранов. </p>
     </div>
-<div class="col-sm-4">
-      <img class="logo-small" src="./foto/Apps-config-icon.png"></img>
+		<div class="col-sm-4">
+      <img class="logo-small" alt="" src="./foto/Apps-config-icon.png" />
       <h4>ПК</h4>
-      <p>Компьютерное обслуживание офисов. Выявление неисправности ПК, мелкий ремонт</p>
+      <p>Компьютерное обслуживание офисов, выявление неисправностей, мелкий ремонт.</p>
     </div>
-<div class="col-sm-4">
-      <img class="logo-small" src="./foto/Printers-Faxes-icon.png"></img>
+		<div class="col-sm-4">
+      <img class="logo-small" alt="" src="./foto/Printers-Faxes-icon.png" />
       <h4>Принтеры и факсы</h4>
-      <p>ИТ обслуживание офисов. Диагностика неисправности сетевых принтеров, факсов.</p>
+      <p>It обслуживание офисов, диагностика и устранение неисправности сетевых принтеров и факсов.</p>
     </div>
-<div class="col-sm-4">
-      <img class="logo-small" src="./foto/Apps-tux-icon.png"></img>
+		<div class="col-sm-4">
+      <img class="logo-small" alt="" src="./foto/Apps-tux-icon.png" />
       <h4>Unix подобные ОС</h4>
       <p>Абонентское обслуживание серверов</p>
     </div>
-  </div>
+	</div>
+</div>
   <br><br>
-<!-- Container (Pricing Section) -->
 <div id="pricing" class="container-fluid bg-grey">
   <div class="text-center">
     <h2>Компьютерные услуги прайс</h2>
@@ -144,8 +147,8 @@ var google_remarketing_only = false;
         </div>
         <div class="panel-body">
           <p><strong>1500p</strong> Выезд специалиста</p>
-          <p><strong>0p</strong> Работы выполняемые </br>менее чем за <strong>30</strong> минут: </br>Настройка принтера, </br>факса, VoIP шлюза и т.д.</p>
-          <p><strong>Цена договорная:</strong> Более <strong>30</strong> </br>минут, зависит от объёма </br>и сложности выполняемых работ</p>
+          <p><strong>0p</strong> Работы выполняемые <br />менее чем за <strong>30</strong> минут: <br />Настройка принтера, <br />факса, VoIP шлюза и т.д.</p>
+          <p><strong>Цена договорная:</strong> Более <strong>30</strong> <br />минут, зависит от объёма <br />и сложности выполняемых работ</p>
         </div>
         <div class="panel-footer">
           <h3>1500 Р</h3>
@@ -189,37 +192,37 @@ var google_remarketing_only = false;
     </div>
   </div>
 </div>
-<!-- container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
+		<h2 style="text-align: center;">О компании</h2><br>
     <div class="col-sm-8">
-      <h2>О компании</h2><br>
-      <h4>Команда специалистов, работающая на результат. Мы занимаемся обслуживанием и пусконаладкой компьютеров, локальных сетей и оборудования телефонии</h4><br>
-      <p>Не редко бывает что на скорость работы ПК влияет качество работы ЛВС (Локальная сеть). Наши специалисты проведут комплексную проверку вашей инфраструктуры.</p>
+      <h4>Наша команда специалистов работает на результат. Мы занимаемся обслуживанием и пусконаладкой компьютеров, локальных сетей и телефонией. Наши ценности, при выполнении поставленных задач-это гибкость, индивидуальный подход и совершенствование качества своих работ и услуг.
+Клиентами нашей компании являются: бизнес-центры, коммерческие фирмы и физические лица.</h4><br>
+      <p>Выбирая нашу компанию, вы получаете:</p>
+				<ul>
+<li>Индивидуальный подход.</li>
+<li>Высококачественное обслуживание и гарантию на все выполненные работы.</li>
+<li>Оперативное решение поставленных вами задач.</li>
+</ul>
     </div>
     <div class="col-sm-4">
-  <!--    <span class="glyphicon glyphicon-signal logo"></span> -->
-	<img class="logo" glyphicon src="./foto/buk.png" width="324" height="236"></img>
+	<img style="margin: auto;" class="logo slideanim" alt="" src="./foto/compan.jpg" width="270" height="256"/>
     </div>
   </div>
 </div>
 <div class="container-fluid bg-grey">
   <div class="row">
     <div class="col-sm-4">
-<!-- arm.png  buk.png  jump.jpg  macbuk.png  patch.jpg  sw.jpg -->
-      <img class="logo" src="./foto/arm.png" slideanim" width="324" height="296"></img>
+      <img class="logo slideanim" alt="" src="./foto/arm.png" width="256" height="256" />
     </div>
     <div class="col-sm-8">
       <h2>Наша цель</h2><br>
-      <h4><strong>Миссия:</strong> Дать возможность клиенту предоставить обслуживание своей IT инфраструктуры специалистам,
-				и снизить расходы на техническую поддержку.</h4><br>
-      <p><strong>Видение:</strong> Вы оформляете заказ по <a href="#contact">форме</a> или по  <a href="#contact">телефону</a>. На стадии заказа согласовывается предварительно расчёт работ.
-				Вашим услугам предоставляются различные виды обслуживания, выезд специалиста или удалёная техническая поддержка.
-			 Услуги системного администратора.</p><br>
+      <h4><strong>Миссия:</strong> Дать возможность клиенту предоставить обслуживание своей IT инфраструктуры профессиональным специалистам и тем самым снизить свои расходы на техническую поддержку.</h4><br>
+      <p><strong>Как к нам обратиться:</strong> Вы можете связаться с нами, заполнив <a href="#contact">форму</a> на сайте или по  <a href="#contact">телефону</a>. На стадии заказа будет предварительно согласован расчёт оказываемых услуг и производимых работ.
+				Мы предоставляем различные виды обслуживания: выезд специалиста, удаленная техническая поддержка и услуги системного администратора.</p><br>
     </div>
   </div>
 </div>
-<!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">Контакты</h2>
   <div class="row">
@@ -230,7 +233,7 @@ var google_remarketing_only = false;
       <p><span class="glyphicon glyphicon-envelope"></span><a href="mailto:mail@itforit.ru"> mail@itforit.ru</a></p>
     </div>
     <div class="col-sm-7 slideanim">
-<form action="" method="post">
+<form method="post">
       <div class="row">
 	<span style="color:green"><?=$note_sent?></span><br />
         <div class="col-sm-6 form-group">
@@ -247,38 +250,32 @@ var google_remarketing_only = false;
 	<span style="color:red"><?=$error_comments?></span><br />
       <div class="row">
         <div class="col-sm-12 form-group">
-          <input class="btn btn-default pull-right" type="submit" name="send" value="Отправить"></input>
+          <input class="btn btn-default pull-right" type="submit" name="send" value="Отправить">
         </div>
       </div>
   </div>
 </form>
 </div>
+</div>
+</div>
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>&copy 2014-<?php echo date("Y");?></p>
+  <p>&copy; 2014-<?php echo date("Y");?></p>
 </footer>
 <script>
 $(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
   $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-    // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
-      // Prevent default anchor click behavior
       event.preventDefault();
-      // Store hash
       var hash = this.hash;
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
-
-        // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
   });
   $(window).scroll(function() {
     $(".slideanim").each(function(){
@@ -292,7 +289,5 @@ $(document).ready(function(){
   });
 })
 </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

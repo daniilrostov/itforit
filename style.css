@@ -30,7 +30,7 @@ body {
       padding: 60px 50px;
   }
   .bg-grey {
-      background-color: #def3dd; //#e6e6ff; //#f6f6f6;
+      background-color: #def3dd;
   }
  .logo-small {
       color: #f4511e;
@@ -70,7 +70,6 @@ body {
   .item span {
       font-style: normal;
   }
-//-------------------------------------------------CENNIK
   .panel {
       border: 1px solid #f4511e;
       border-radius:0 !important;
@@ -178,6 +177,6 @@ background-color: rgba(255, 69, 0, 0.7) !important;
   }
   @media screen and (max-width: 480px) {
     .logo {
-        font-size: 150px;
+        font-size: 100px;
     }
   }
